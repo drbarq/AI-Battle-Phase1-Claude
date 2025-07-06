@@ -2,6 +2,10 @@
 
 A mobile-first Snake game built with React, optimized for smartphone touch screens and designed for seamless Vercel deployment. Features a responsive 15x17 grid, virtual joystick controls, haptic feedback, and multiple difficulty levels.
 
+## 🚀 Live Demo
+
+**[View Project →](https://ai-battle-phase1-claude.vercel.app/)**
+
 ## 🎮 Features
 
 - **Mobile-Optimized**: Touch-friendly virtual joystick controls
