@@ -12,6 +12,25 @@ A mobile-first Snake game built with React, optimized for smartphone touch scree
 - **Smooth Gameplay**: 60fps animations with requestAnimationFrame
 - **Keyboard Support**: WASD and arrow key controls for desktop
 
+## Code Stats
+      17 text files.
+      13 unique files.
+       5 files ignored.
+
+github.com/AlDanial/cloc v 2.06  T=0.01 s (1816.7 files/s, 169650.3 lines/s)
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+JSX                              6             77              0            449
+CSS                              1             40              0            297
+Markdown                         3             87              0            236
+HTML                             1              0              0             16
+JavaScript                       1              1              1              9
+SVG                              1              0              0              1
+-------------------------------------------------------------------------------
+SUM:                            13            205              1           1008
+-------------------------------------------------------------------------------
+
 ## 🚀 Quick Start
 
 ### Prerequisites
