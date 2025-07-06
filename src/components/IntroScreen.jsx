@@ -18,6 +18,11 @@ function IntroScreen({ onStartGame, onOpenSettings, highScore }) {
       <button className="settings-button" onClick={onOpenSettings}>
         Settings
       </button>
+      <div className="logo-container">
+        <a href="https://www.tiktok.com/@vibinwiththechef" target="_blank" rel="noopener noreferrer">
+          <img src="/Images/logo.png" alt="Game Logo" className="intro-logo" />
+        </a>
+      </div>
     </div>
   );
 }
