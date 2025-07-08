@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Game from './components/Game';
 import IntroScreen from './components/IntroScreen';
 import Settings from './components/Settings';
@@ -75,11 +76,14 @@ function App() {
 
   if (gameState === 'intro') {
     return (
-      <IntroScreen 
-        onStartGame={startGame} 
-        onOpenSettings={openSettings}
-        highScore={highScore}
-      />
+      <>
+        <IntroScreen 
+          onStartGame={startGame} 
+          onOpenSettings={openSettings}
+          highScore={highScore}
+        />
+        <Analytics />
+      </>
     );
   }
 
@@ -103,6 +107,7 @@ function App() {
           onClose={closeSettings}
         />
       )}
+      <Analytics />
     </div>
   );
 }
